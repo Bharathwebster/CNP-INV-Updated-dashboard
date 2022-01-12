@@ -45,7 +45,7 @@ public req2:any;
 private req:any;
   toolList:any;
   console1:any;console2:any;console3:any;console4:any;console5:any;
-  console6:any;console7:any;console8:any;console9:any;nullconsole:any;
+  console6:any;console7:any;console8:any;console9:any;console10:any;console11:any;console12:any;nullconsole:any;
 movebay:any;
 toolid1:any;
 public allconsoles:any;
@@ -193,8 +193,17 @@ callAlltools(){
       this.console8 = this.toolList.filter(data => {
       return data.bay==258 && data.is_active == true});
 
-      this.console8 = this.toolList.filter(data => {
-      return data.bay==258 && data.is_active == true});
+      this.console9 = this.toolList.filter(data => {
+      return data.bay==259 && data.is_active == true});
+
+      this.console10 = this.toolList.filter(data => {
+        return data.bay==260 && data.is_active == true});
+
+        this.console11 = this.toolList.filter(data => {
+          return data.bay==261 && data.is_active == true});
+      
+          this.console12 = this.toolList.filter(data => {
+            return data.bay==262 && data.is_active == true});
 
       this.nullconsole = this.toolList.filter(data => {
       return data.bay==259 && data.is_active == false});
