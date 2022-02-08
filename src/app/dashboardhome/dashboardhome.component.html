@@ -180,11 +180,8 @@
     </div>
     <div class="col-md-6">
       <div class="row bays">
-        <div
-          *ngFor="let bayno of console8"
-          popover="{{ bayno.name }}"
-          triggers="mouseenter:mouseleave"
-        >
+        <div *ngFor="let bayno of console8" popover="{{ bayno.name }}"
+          triggers="mouseenter:mouseleave">
           <h4>Bay {{ bayno.bay_number }}</h4>
         </div>
       </div>
