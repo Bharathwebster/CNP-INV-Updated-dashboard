@@ -1152,23 +1152,23 @@ export class BayhomeComponent implements OnInit {
                                 }
                                 })
 
-                                this.bay41D =  this._toolsListed.filter(data=>{
-                                  return data.bay_number=='41D' && data.is_active == true
-                                });
-                                  this.bay41D.forEach(function (value) {
-                                  if(value.status === 'IN'){
-                                    $('#bay41D').css({fill: "#ffff80"});
-                                  }
-                                  else if (value.status === 'ID') {
-                                    $('#bay41D').css({fill: "#ff7f7f"});
-                                  }
-                                  else if (value.status === 'PR') {
-                                    $('#bay41D').css({fill: "#c2de80"});
-                                  }
-                                  else if (value.status === 'MA') {
-                                    $('#bay41D').css({fill: "#9ac3f5"});
-                                  }
-                                  })
+                                // this.bay41D =  this._toolsListed.filter(data=>{
+                                //   return data.bay_number=='41D' && data.is_active == true
+                                // });
+                                //   this.bay41D.forEach(function (value) {
+                                //   if(value.status === 'IN'){
+                                //     $('#bay41D').css({fill: "#ffff80"});
+                                //   }
+                                //   else if (value.status === 'ID') {
+                                //     $('#bay41D').css({fill: "#ff7f7f"});
+                                //   }
+                                //   else if (value.status === 'PR') {
+                                //     $('#bay41D').css({fill: "#c2de80"});
+                                //   }
+                                //   else if (value.status === 'MA') {
+                                //     $('#bay41D').css({fill: "#9ac3f5"});
+                                //   }
+                                //   })
 
                           this.bay42 =  this._toolsListed.filter(data=>{
                             return data.bay_number==42 && data.is_active == true
