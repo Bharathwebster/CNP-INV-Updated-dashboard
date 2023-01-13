@@ -1637,6 +1637,40 @@ export class BayhomeComponent implements OnInit {
                                     $('#bay67').css({fill: "#9ac3f5"});
                                   }
                                   })
+                                  this.bay68 = this._toolsListed.filter(data=>{
+                                  return data.bay_number==68 && data.is_active == true
+                                  });
+                                  this.bay68.forEach(function (value) {
+                                  if(value.status === 'IN'){
+                                    $('#bay68').css({fill: "#ffff80"});
+                                  }
+                                  else if (value.status === 'ID') {
+                                    $('#bay68').css({fill: "#ff7f7f"});
+                                  }
+                                  else if (value.status === 'PR') {
+                                    $('#bay68').css({fill: "#c2de80"});
+                                  }
+                                  else if (value.status === 'MA') {
+                                    $('#bay68').css({fill: "#9ac3f5"});
+                                  }
+                                  })
+                                  this.bay69 = this._toolsListed.filter(data=>{
+                                  return data.bay_number==69 && data.is_active == true
+                                 });
+                                  this.bay69.forEach(function (value) {
+                                  if(value.status === 'IN'){
+                                    $('#bay69').css({fill: "#ffff80"});
+                                  }
+                                  else if (value.status === 'ID') {
+                                    $('#bay69').css({fill: "#ff7f7f"});
+                                  }
+                                  else if (value.status === 'PR') {
+                                    $('#bay69').css({fill: "#c2de80"});
+                                  }
+                                  else if (value.status === 'MA') {
+                                    $('#bay69').css({fill: "#9ac3f5"});
+                                  }
+                                  })
 
 
 
