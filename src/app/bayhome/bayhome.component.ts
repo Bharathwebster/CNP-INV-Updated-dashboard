@@ -1637,6 +1637,7 @@ export class BayhomeComponent implements OnInit {
                                     $('#bay67').css({fill: "#9ac3f5"});
                                   }
                                   })
+
                                   this.bay68 = this._toolsListed.filter(data=>{
                                   return data.bay_number==68 && data.is_active == true
                                   });
@@ -1654,6 +1655,7 @@ export class BayhomeComponent implements OnInit {
                                     $('#bay68').css({fill: "#9ac3f5"});
                                   }
                                   })
+                                  
                                   this.bay69 = this._toolsListed.filter(data=>{
                                   return data.bay_number==69 && data.is_active == true
                                  });
