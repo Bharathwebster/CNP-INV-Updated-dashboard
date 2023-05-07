@@ -861,7 +861,7 @@ export class BayhomeComponent implements OnInit {
                         })
 
                     this.bay33 =  this._toolsListed.filter(data=>{
-                      return data.bay_number==32 && data.is_active == true
+                      return data.bay_number==33&& data.is_active == true
                     });
                       this.bay33.forEach(function (value) {
                       if(value.status === 'IN'){
@@ -879,7 +879,7 @@ export class BayhomeComponent implements OnInit {
                       })
 
                     this.bay34 =  this._toolsListed.filter(data=>{
-                      return data.bay_number==34 && data.is_active == true
+                      return data.bay_number==33 && data.is_active == true
                     });
                       this.bay34.forEach(function (value) {
                       if(value.status === 'IN'){
@@ -1549,7 +1549,7 @@ export class BayhomeComponent implements OnInit {
                                   })
 
                                   this.bay63 =  this._toolsListed.filter(data=>{
-                                  return data.bay_number==63 && data.is_active == true
+                                  return data.bay_number==62 && data.is_active == true
                                   });
                                   this.bay63.forEach(function (value) {
                                   if(value.status === 'IN'){
@@ -1655,7 +1655,7 @@ export class BayhomeComponent implements OnInit {
                                     $('#bay68').css({fill: "#9ac3f5"});
                                   }
                                   })
-                                  
+
                                   this.bay69 = this._toolsListed.filter(data=>{
                                   return data.bay_number==69 && data.is_active == true
                                  });
